@@ -5,7 +5,7 @@ const findTheOldest = function (people) {
 
     return oldest_man > current_man ? oldest : currAge;
   });
-  return ar
+  return arr; //reduce array and returns
 };
 
 const age = (birth, death) => {
